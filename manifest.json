@@ -41,7 +41,10 @@
       "all_frames": true
     }
   ],
-  "background": {
-    "service_worker": "src/background/background.js"
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "kot@classmethod.jp",
+      "strict_min_version": "122.0"
+    }
   }
 }
